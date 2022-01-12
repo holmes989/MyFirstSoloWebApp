@@ -1,0 +1,13 @@
+﻿li {
+    list-style-type: none
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
