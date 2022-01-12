@@ -1,6 +1,9 @@
-﻿$("#btnSend").click(function () {
+﻿/*Makes a button*/
+$("#btnSend").click(function () {
+//Creates the value of total grade based on inputs
 totalGrade = (($("#txtAssign").val() * .55) + ($("#txtGrp").val() * .05) + ($("#txtQz").val() * .1) + ($("#txtXm").val() * .2) + ($("#txtNtx").val() * .1))
-letterGrade = ""
+//Creates total letter grade and assigns it the be the letter grade according to the total grade
+    letterGrade = ""
 if ((totalGrade) >= 94) {
     letterGrade = "A";
 } else if ((totalGrade) >= 90) {
@@ -20,7 +23,7 @@ if ((totalGrade) >= 94) {
 } else {
     letterGrade = "F";
 }
-
+    //Creates the button that will display the total grade and the letter grade
     alert("Total Grade: " + totalGrade + " Letter Grade: " + letterGrade)
         //$("#txtAssign").val() + 
         //$("#txtGrp").val() +

@@ -21,6 +21,7 @@ namespace MyFirstSoloWebApp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // Use default files helps the page automatically go to index, instead of putting it in every time
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }

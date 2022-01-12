@@ -1,9 +1,12 @@
-﻿label {
+﻿
+label {
+/*Makes labels all the same size*/
     width: 150px;
     display: inline-block;
 }
 
 img {
+/*Fits the image that I inputted so that it doesn't take up the whole page*/
     width: 400px;
     height: auto;
 }
